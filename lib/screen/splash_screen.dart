@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return   SafeArea(
         child: Scaffold(
-          appBar: AppBar(leadingWidth: 50,
+          /*appBar: AppBar(leadingWidth: 50,
             shape: Border.all(),
             backgroundColor: Colors.deepOrangeAccent.withOpacity(0.7),
             centerTitle: true,
@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
 
             actions: [Icon(Icons.settings)],
-            ),
+            ),*/
           drawer:Drawer(
             child: ListView(
               padding: EdgeInsets.zero,
